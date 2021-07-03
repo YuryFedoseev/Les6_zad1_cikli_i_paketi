@@ -12,7 +12,7 @@ class StatsServiceTest {
         //long[] sales = {14,99,13,4};
         //long expected = 130;
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        long expected = 180;
+        long expected = 181;
         long actual = service.countSum(sales);
 
         assertEquals(expected, actual);
